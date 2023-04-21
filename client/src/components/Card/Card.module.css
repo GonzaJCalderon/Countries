@@ -1,0 +1,65 @@
+.card{
+    width: 15rem ;
+    height: 10rem;
+    border-radius: 1rem;    
+}
+
+.borde{
+    width: 15rem;
+    height: 18rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    display: inline-grid;
+    align-content: space-around;
+    background-color:rgba(0, 0, 0, 0.332);
+    box-shadow: 0px 7px 8px 3px rgba(64, 64, 64, 0.415);
+}
+
+.imagen{
+    background: center;
+    width: 8rem;
+    height: 5rem;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    padding: none;
+}
+
+.pais{
+    height: 4rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.detalle{
+    height: 10px;
+    width: auto;
+}
+
+.button{
+    pointer-events: all;
+    border-radius: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    background-color: rgb(55, 55, 55);
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+
+
+
