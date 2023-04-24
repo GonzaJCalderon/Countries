@@ -9,8 +9,6 @@ export const SORT_POPULATION = "SORT_POPULATION";
 export const SORT_CONTINENT = "SORT_CONTINENT";
 export const SORT_ACTIVITY = "SORT_ACTIVITY";
 export const ALL_ACTIVITY = "ALL_ACTIVITY";
-
-
 const API_URL = "http://localhost:3001";
 
 export function allCountries() {
