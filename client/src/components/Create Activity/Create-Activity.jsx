@@ -4,9 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { allCountries, createActivity } from "../../Redux/actions";
 import styles from "./Create.module.css";
 
-// import Navbar from '../NavBar/Navbar'
-import { Link } from "react-router-dom";
-import flecha from "./flecha_atras.png";
+
 function CreateActivity() {
  
   const [error, setError] = useState("");
