@@ -28,15 +28,11 @@
     height: 3rem;
     flex-wrap: nowrap;
     align-items: center;
-    /* border-left: 1px;
-    border-right: 1px; */
-    /* border: 1px; */
     border:none
 }
 
 .orden{
     border: none;
-       /* margin-left: 4rem; */
        cursor: pointer;
         background-color: #ffffff;
        height: 1.5rem;
@@ -47,7 +43,6 @@
 }
 
 .actividad{
-      /* margin-left: 4rem; */
       cursor: pointer;
       border: none;
       background-color: #ffffff;
@@ -71,10 +66,12 @@
     height: auto;
     width: 50rem;
 }
+
 .imagenLoading{
     width: 8rem;
     height: 8rem;
-}
+    object-fit: contain;
+    }
 
 .loading{
     width: 100%;

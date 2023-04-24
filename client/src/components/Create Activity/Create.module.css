@@ -214,22 +214,17 @@ buttonClose:hover{
 }
 
 .volver {
-    background-color: #363d3f;
-    color: #fff;
-    width: 75px; /* Ajusta el tamaño según tus preferencias */
-    height: 70px; /* Ajusta el tamaño según tus preferencias */
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    text-decoration: none;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-    position: relative;
-  }
+  margin: 1rem;
+  border: none;
+  width: 5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  font-size: large;
+  background-color: rgba(97, 97, 97, 0.985);
+  color: rgb(255, 255, 255);
+  font-weight: none;
+}
+  
   
   .volver:before {
     content: "";

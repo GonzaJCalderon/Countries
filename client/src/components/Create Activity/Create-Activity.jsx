@@ -112,14 +112,7 @@ function CreateActivity() {
       {/* <Navbar/> */}
       <header className={styles.header}>
       <button className={styles.volver} onClick={() => window.history.back()}>
-  <div className={styles.contenedor}>
-    <img
-      src={flecha}
-      className={styles.button_movil_atras}
-      alt="atras"
-    />
-    <span className={styles.texto}>Back</span>
-  </div>
+  HOME
 </button>
 
 

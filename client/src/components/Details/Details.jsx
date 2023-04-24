@@ -54,7 +54,7 @@ function Details() {
         </>
       ) : (
         <div className={styles.loading}>
-          <img src={loading} className={styles.imagenLoading} />
+          <img src={loading} className={styles.imagenLoading} alt="iamgen loanding" />
         </div>
       )}
       
