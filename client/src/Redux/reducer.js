@@ -97,17 +97,19 @@ const rootReducer = (state = initialState, action) => {
         ...state,
       };
 
-    case SORT_ACTIVITY:
-      let mapeoCountries =
-        action.payload === "todos"
-          ? state.copyCountries
-          : state.copyCountries.filter((c) => {
-              let mapeo = c.activities?.map((d) => d.name);
-              if (mapeo.includes(action.payload)) {
-                return c;
-              }
-            });
-
+      case SORT_ACTIVITY:
+        let mapeoCountries =
+          action.payload === "todos"
+            ? state.copyCountries
+            : state.copyCountries.filter((c) => {
+                let mapeo = c.activities?.map((d) => d.name);
+                if (mapeo.includes(action.payload)) {
+                  return c;
+                } else {
+                  return null;
+                }
+              });
+      
       return {
         ...state,
         countries: mapeoCountries,

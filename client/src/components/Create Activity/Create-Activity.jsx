@@ -101,9 +101,9 @@ function CreateActivity() {
     alert("Your activity was successfully created");
     navegate("/countries");
   }
-  const PintarError = () => (
-    <div className={styles.error}>All required fields</div>
-  );
+  //const PintarError = () => (
+    //<div className={styles.error}>All required fields</div>
+  //);
 
   return (
     <>
