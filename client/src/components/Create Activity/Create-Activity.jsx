@@ -91,6 +91,7 @@ function CreateActivity() {
       return;
     }
     dispatch(createActivity(state));
+    console.log(state)
     setState({
       name:"",
       difficulty: 0,
@@ -112,9 +113,6 @@ function CreateActivity() {
       <button className={styles.volver} onClick={() => window.history.back()}>
   HOME
 </button>
-
-
-
         <div>
           <p>Create Activity</p>
           

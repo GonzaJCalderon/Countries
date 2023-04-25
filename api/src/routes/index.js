@@ -52,8 +52,9 @@ router.get('/countries/:id', async function(req, res) {
 });
 
 
-router.post('/', async (req, res) => {
+router.post('/activity', async (req, res) => {
     const { name, difficulty, duration, season, countries } = req.body;
+
     try {
         const newActivity = await postActivity(name, difficulty, duration, season, countries);
         res.status(200).json(newActivity);
