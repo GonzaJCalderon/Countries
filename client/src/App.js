@@ -3,8 +3,8 @@ import Details from "./components/Details/Details";
 import Landing from './components/Landing/Landing';
 import CreateActivity from './components/Create Activity/Create-Activity';
 import Home from "./components/Home/Home";
-import axios  from "axios";
-axios.defaults.API_URL = "http://localhost:3001"
+//import axios  from "axios";
+//axios.defaults.baseURL = "http://localhost:3001"
 
 function App() {
   return (

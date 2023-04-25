@@ -5,6 +5,9 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from './Redux/store';
+import axios  from "axios";
+axios.defaults.baseURL = "countries-production-95e3.up.railway.app"
+//axios.defaults.baseURL = "http://localhost:3001"
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
