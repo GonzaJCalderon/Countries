@@ -10,6 +10,7 @@ body { overflow-y: auto;
   }
   
   .header {
+    background-image: url('../Landing/landing_landing.png');
     color: white;
     display: flex;
     flex-wrap: nowrap;
@@ -34,11 +35,10 @@ body { overflow-y: auto;
     font-size: 0.9rem;
   }
   
-  
-  
+
   .detalles {
-    height: 15rem;
-    width: 20rem;
+    height: 20rem;
+    width: 25rem;
     border-radius: 1rem;
     padding: 1rem;
     background-color: rgba(76, 0, 130, 0);
@@ -53,41 +53,43 @@ body { overflow-y: auto;
     border: 1rem;
     height: 15rem;
     width: auto;
-  
+    font-size: rem; 
   }
   
   .boxActivity {
-    width: 15rem;
-    height: 12rem;
-    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+    padding: 5rem;
     border-radius: 1rem;
-    background-color: rgba(76, 0, 130, 0.099);
+    background-color: rgba(207, 156, 15, 0.726);
     box-shadow: 0px 1px 4px 0px rgb(55, 55, 55);
   }
   
   .imagenLoading {
-    width: 8rem;
-    height: 8rem;
-  }
-  
-  .loading {
-    width: 100%;
-    height: 80vh;
+    width: 10%;
+    height: 15vh;
     display: flex;
     animation: animar 5s cubic-bezier(0, 0, 1, 1.03) infinite;
     justify-content: center;
     align-items: center;
-  }
-  
-  @keyframes animar {
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@keyframes animar {
     0% {
       transform: rotate(0deg);
+
     }
-  
+
     100% {
       transform: rotate(360deg);
+
     }
-  }
+}
   
   .volver {
     margin: 1rem;

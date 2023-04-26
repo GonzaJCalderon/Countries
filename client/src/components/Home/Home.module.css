@@ -1,3 +1,4 @@
+
 .search{
     font-weight: 300;
     font-size: 40px;
@@ -22,6 +23,7 @@
 } 
 
 .opciones{
+
     display: flex;
     flex-direction: row;
     justify-content:center;

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { countryById } from "../../Redux/actions";
+import { countryById, clear } from "../../Redux/actions"; 
 import styles from "./Details.module.css";
 import loading from "./logoapp1-01.png";
 import { Link } from "react-router-dom";
@@ -13,6 +13,9 @@ function Details() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(countryById(id));
+    return () => {
+      dispatch(clear()); 
+    }
   }, [dispatch, id]);
 
   return (

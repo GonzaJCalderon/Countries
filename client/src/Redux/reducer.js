@@ -8,6 +8,7 @@ import {
   SORT_POPULATION,
   SORT_CONTINENT,
   SORT_ACTIVITY,
+
 } from "./actions"
 
 const initialState = {
@@ -97,6 +98,7 @@ const rootReducer = (state = initialState, action) => {
         ...state,
       };
 
+
       case SORT_ACTIVITY:
         let mapeoCountries =
           action.payload === "todos"
@@ -123,6 +125,10 @@ const rootReducer = (state = initialState, action) => {
     default:
       return { ...state };
   }
+
 };
+
+
+
 
 export default rootReducer;

@@ -9,7 +9,10 @@ export const SORT_POPULATION = "SORT_POPULATION";
 export const SORT_CONTINENT = "SORT_CONTINENT";
 export const SORT_ACTIVITY = "SORT_ACTIVITY";
 export const ALL_ACTIVITY = "ALL_ACTIVITY";
+
 const API_URL = "https://countries-production-c186.up.railway.app";
+
+
 
 export function allCountries() {
   return async (dispatch) => {
@@ -113,3 +116,4 @@ export function sortActivity(payload) {
     });
   };
 }
+

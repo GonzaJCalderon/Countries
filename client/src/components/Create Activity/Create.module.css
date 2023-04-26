@@ -14,7 +14,7 @@
     }
     50%{
       background-color: rgb(55, 55, 55);
-      color: rgb(255, 255, 255);
+      color: rgba(184, 158, 109, 0.719);
     }
     100%{
       color: rgb(55, 55, 55);
@@ -77,7 +77,7 @@
     text-align: start;
     padding: none;
     font-size: 0.9rem;
-    color: grey;
+    color: rgb(17, 16, 16);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
@@ -138,7 +138,7 @@
     }
 
 .contenedorCountry{
-    /* width: 10rem; */
+
     width: 10rem; 
     width: auto;
     height: 3rem;
@@ -149,7 +149,7 @@
     border-radius: 0.5rem;
     text-align: justify;
     margin: 1rem;
-    /* margin-left: 0.8rem; */
+
     align-items: flex-start;
 }
 
@@ -169,7 +169,7 @@
     align-content: center;
 }
 
-buttonClose:hover{
+.buttonClose:hover{
     background-color:rgb(55, 55, 55);
     color:white;
     border: none;
@@ -181,7 +181,6 @@ buttonClose:hover{
 
 .contenedorC{
     display: flex;
-    /* max-width: 5rem; */
     flex-direction: row;
     justify-content: flex-start;
     align-content: stretch;

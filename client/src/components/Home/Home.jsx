@@ -28,7 +28,9 @@ function Home() {
     if (c.activities && c.activities[0]) {
       return c.activities;
     }
-  });
+    return false;
+  })
+  
   let arrayActivity = filtroActivity.map((c) => c.activities[0]["name"]);
   let arrayActivity1 = arrayActivity.filter((item, index) => {
     return arrayActivity.indexOf(item) === index;
@@ -125,7 +127,7 @@ function Home() {
       <div className={style.cardContent}>
         {!countries.length ? (
           <div className={style.loading}>
-            <img src={loading} className={style.imagenLoading} />
+            <img src={loading} className={style.imagenLoading} alt={""}/>
           </div>
         ) : countries === "The country was not found" ? (
           <h1 className={style.search}>
